@@ -1,11 +1,20 @@
-@@charset "UTF-8";
+@charset "UTF-8";
 
-.list { background: #fafafa;}
+* {
+  font-family: Helvetica, sans-serif;
+  color: #333;
+}
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  color: #333;
   line-height: 1.7;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.list {
+  background-color: #fafafa;
 }
 .main-header {
   background: #fff;
@@ -15,4 +24,11 @@ body {
   justify-content: space-between;
   height: 65px;
   line-height: 65px;
+}
+.title a {
+  display: block;
+  margin-top: 18px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
 }
