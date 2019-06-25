@@ -1,3 +1,1 @@
-#simple page
-
-> pagina simples
+# simple page
